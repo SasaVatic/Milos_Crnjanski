@@ -1,0 +1,234 @@
+/* ______________________________Global ______________________________ */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0EBD8;
+    font-family: 'Old Standard TT', serif;
+    padding: 1.5rem;
+    color: black;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#line-one, #line-two {
+    width: 100%;
+    background-color: black;
+}
+
+#line-one {
+    height: 2px;
+    margin-bottom: 3px;
+}
+
+#line-two {
+    height: 1px;
+    margin-bottom: 3px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;     
+}
+
+nav li {
+    margin: 3px 0;
+}
+
+nav li a {
+    font-size: 1.5rem;
+}
+
+a {    
+    color: #38362D;
+    font-weight: 600;
+}
+
+#wrapper {
+    margin-top: 1.5rem;
+    border: 3px solid black;
+    padding: 1rem;
+}
+
+#article-one > p, #article-two, #article-three, #article-four {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: justify;
+}
+
+#zivot h2, #dela h2 {
+    text-align: center;
+    margin: 3px 0;
+    font-size: 2rem;
+}
+
+#zivot, #dela {
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+/* ______________________________Uvod ______________________________ */
+
+
+
+#uvod > div {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-weight: 600;
+    grid-gap: 1rem;
+    width: 100%;
+}
+
+p::first-line {
+    text-indent: 1rem;
+}
+
+table, td, tr, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: start;
+    padding: 3px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+}
+
+th {
+    text-align: center;
+    height: 2rem;
+}
+
+table a {
+    font-size: 1rem;
+}
+
+#article-two {
+    margin-top: 1rem;
+}
+
+#article-two img {
+    width: 5rem;
+    float: left;
+    margin-right: 10px;
+}
+
+
+/* ______________________________Zivot ______________________________ */
+
+
+
+#zivot-div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#article-four img {
+    width: 10rem;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/* ______________________________Dela ______________________________ */
+
+
+
+#dela-div {    
+    margin-top: 1rem;
+    border: 1px solid black;
+}
+
+#dela-div > p {
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+#dela-div > div {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    padding: 1rem;
+    grid-gap: 1rem;
+}
+
+#dela-div > div > div {
+    display: grid;
+    grid-template-rows: 2fr 1fr;    
+    grid-gap: 1rem;
+}
+
+#dela-div > div > div article {
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+#dela-div > div > article {
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: justify;
+}
+
+#dela-div > div div ul {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+#dela-div ul li{
+    padding-left: 1rem;
+    list-style: none;
+}
+
+#romani {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#romani  ul li {
+    padding-top: 1rem;
+}
+
+#romani p {
+    margin-top: 1rem;
+}
+
+#drame {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+}
+
+#drame ul, #romani  ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+}
+
+#return-link {
+    display: block;
+    margin-top: 1rem;
+}
